@@ -35,8 +35,3 @@ export function middleware(req: NextRequest) {
 export const config = {
   matcher: '/:path*',
 };
-
-// サイト全体に適用する
-export const config = {
-  matcher: '/:path*',
-};
