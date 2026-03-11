@@ -8,7 +8,7 @@
 
 - **公式リファレンス**: [useState - React Docs](https://ja.react.dev/reference/react/useState)
 
-Reactのコンポーネントは「State (状態) が変わった時に再レンダリング (画面の描き直し) を行う」というサイクルで動く。このStateを管理するのが `useState` フックである。
+ReactのコンポーネントはState (状態) が変わった時に再レンダリング (画面の描き直し) を行うというサイクルで動く。このStateを管理するのが `useState` フックである。
 
 ### 【致命的な罠】Stateの直接変更 (ミューテーション)
 
@@ -35,7 +35,7 @@ setUsers([...users, "Charlie"]);
 
 - **公式リファレンス**: [useEffect - React Docs](https://ja.react.dev/reference/react/useEffect)
 
-APIからデータを取得したり、外部システム (Three.js / R3F等) と同期したりする「コンポーネントの描画とは直接関係ない処理 (副作用 = Side Effect) 」を記述するためのフック。
+APIからデータを取得したり、外部システム (Three.js / R3F等) と同期したりするコンポーネントの描画とは直接関係ない処理 (副作用 = Side Effect) を記述するためのフック。
 
 ### 【致命的な罠】依存配列 (Dependency Array) の指定漏れ
 
@@ -70,12 +70,12 @@ useEffect(() => {
 
 - **公式ドキュメント**: [Server Components - Next.js Docs](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
 
-従来のReactはすべてブラウザ上で処理 (Client-Side Rendering) していたが、新しいNext.jsのApp Routerでは**「デフォルトで全てのコンポーネントがサーバー側でHTML化されてから (Server Component) 送られる」**という極めて重要な設計変更がなされた。
+従来のReactはすべてブラウザ上で処理 (Client-Side Rendering) していたが、新しいNext.jsのApp Routerでは**デフォルトで全てのコンポーネントがサーバー側でHTML化されてから (Server Component) 送られる**という極めて重要な設計変更がなされた。
 
 ### 【罠】サーバーコンポーネント内でフックを使おうとする
 
 デフォルトの状態 (Server Component) のファイル内で、`useState` や `useEffect` レンダリング系フック、あるいは `onClick` のようなブラウザのイベントリスナを書くと、コンパイルエラー (ビルドエラー) となる。
-(※サーバー側では「ユーザーがクリックする」という概念が存在しないため)
+(※サーバー側ではユーザーがクリックするという概念が存在しないため)
 
 ### 【お作法】`"use client"` ディレクティブの明記
 
@@ -92,4 +92,4 @@ export default function Counter() {
 }
 ```
 
-- **アーキテクチャ設計論**: プロジェクト全体を `"use client"` にしてしまうとNext.jsの恩恵 (SEOや初期描画速度の向上) が失われる。極力「外枠やデータ取得部分はServer Component」とし、ボタンなどの細部のみを別ファイルに切り出して「Client Component」とするのがモダンな設計である。
+- **アーキテクチャ設計論**: プロジェクト全体を `"use client"` にしてしまうとNext.jsの恩恵 (SEOや初期描画速度の向上) が失われる。極力外枠やデータ取得部分はServer Componentとし、ボタンなどの細部のみを別ファイルに切り出してClient Componentとするのがモダンな設計である。

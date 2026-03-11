@@ -1,6 +1,6 @@
 # Laravel (PHP) 初学者向け入門・逆引き辞典
 
-日本国内のWeb受託開発において圧倒的なシェアを誇る、PHPのフルスタックWebフレームワーク「Laravel (ララベル)」について、FlaskやReactを学んだ視点から概念を翻訳して解説する。
+日本国内のWeb受託開発において圧倒的なシェアを誇る、PHPのフルスタックWebフレームワークLaravel (ララベル)について、FlaskやReactを学んだ視点から概念を翻訳して解説する。
 
 ---
 
@@ -21,7 +21,7 @@
 
 ### なぜ受託開発でLaravelが強いのか？
 
-「認証機能 (ログイン) 」「メール送信」「データベース操作 (ORM) 」といった、Webアプリに必要な全ての部品が**最初から全部入り (フルスタック) **で用意されているからである。Flaskのように「自分で部品を選んで組み立てる」必要がないため、誰が書いても同じような構造になり、チーム開発や引き継ぎ (受託開発) に極めて強い。
+認証機能 (ログイン) メール送信データベース操作 (ORM) といった、Webアプリに必要な全ての部品が**最初から全部入り (フルスタック) **で用意されているからである。Flaskのように自分で部品を選んで組み立てる必要がないため、誰が書いても同じような構造になり、チーム開発や引き継ぎ (受託開発) に極めて強い。
 
 ---
 
@@ -29,7 +29,7 @@
 
 - **公式リファレンス**: [Eloquent ORM - Laravel Docs](https://laravel.com/docs/11.x/eloquent)
 
-Laravel最大の強みがこの「Eloquent (データベース操作機能) 」である。SQLAlchemyとほぼ同じ思想で動く。
+Laravel最大の強みがこのEloquent (データベース操作機能) である。SQLAlchemyとほぼ同じ思想で動く。
 
 ### データの取得 (SELECT)
 
@@ -49,7 +49,7 @@ $adults = User::where('age', '>', 20)->get();
 
 - **公式リファレンス**: [Eloquent: Relationships - Eager Loading](https://laravel.com/docs/11.x/eloquent-relationships#eager-loading)
 
-SQLDatabase大図鑑で解説したN+1問題は、Laravel開発でも「絶対にやってはいけない御法度」として面接等で頻出する。解決策はSQLAlchemyの `joinedload` と同じく、**「取得時に `with` をつける」**ことである。
+SQLDatabase大図鑑で解説したN+1問題は、Laravel開発でも絶対にやってはいけない御法度として面接等で頻出する。解決策はSQLAlchemyの `joinedload` と同じく、**取得時に `with` をつける**ことである。
 
 ```php
 // ❌ N+1問題が起きる書き方 (部署名をループの中で取ってしまう)

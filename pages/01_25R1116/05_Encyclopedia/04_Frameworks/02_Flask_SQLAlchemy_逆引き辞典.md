@@ -8,11 +8,11 @@ Pythonの軽量WebフレームワークであるFlaskと、標準的に使われ
 
 - **公式リファレンス**: [The Application Context - Flask Docs](https://flask.palletsprojects.com/en/stable/appcontext/)
 
-Flaskに備わっている、リクエスト単位などでグローバル変数を安全に扱うための「コンテキスト」という隔離空間の概念。
+Flaskに備わっている、リクエスト単位などでグローバル変数を安全に扱うためのコンテキストという隔離空間の概念。
 
 ### 【頻出するエラー】 `RuntimeError: Working outside of application context.`
 
-データベースの初期化時 (`db.create_all()`) や、バックグラウンドでのバッチ処理中など、**「通常のWebリクエスト (URL叩き) を経由せずにアプリを動かそうとした時」**に発生するエラー。
+データベースの初期化時 (`db.create_all()`) や、バックグラウンドでのバッチ処理中など、**通常のWebリクエスト (URL叩き) を経由せずにアプリを動かそうとした時**に発生するエラー。
 
 ```python
 # ❌ エラーになる書き方 (コンテキスト外での実行)
@@ -22,7 +22,7 @@ db.create_all() # ← ここで落ちる
 
 ### 【お作法】 `with app.app_context():` ブロックの使用
 
-「今からこのアプリの文脈 (コンテキスト) に乗り込むぞ」とシステムに宣言してから処理を行う。
+今からこのアプリの文脈 (コンテキスト) に乗り込むぞとシステムに宣言してから処理を行う。
 
 ```python
 # ⭕ 正しい書き方
@@ -80,7 +80,7 @@ data = Employee.query.filter((Employee.del_flag == None) | (Employee.del_flag !=
 
 ### Insert / Update / Delete (追加・更新・削除)
 
-SQLAlchemyにおける保存は、必ず **「Session領域 (メモリ上) への反映」** と **「Commit (データベース本体への確定) 」** の2段階構成になっている。
+SQLAlchemyにおける保存は、必ず **Session領域 (メモリ上) への反映** と **Commit (データベース本体への確定) ** の2段階構成になっている。
 
 ```python
 # 1. データの用意

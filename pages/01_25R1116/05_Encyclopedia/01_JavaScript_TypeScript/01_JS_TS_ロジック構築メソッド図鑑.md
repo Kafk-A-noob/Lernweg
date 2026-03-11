@@ -21,11 +21,11 @@
 
 - **他言語対比**: 基本的な `for` 文や Python の `for item in lst:`、PHPの `foreach ($arr as $item)` に相当。
 
-### `map()` : 【最頻出】中身をすべて加工して「新しい配列」を作る
+### `map()` : 【最頻出】中身をすべて加工して新しい配列を作る
 
 - **公式リファレンス**: [Array.prototype.map() - MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 - **用途**: ReactのJSX要素のリストレンダリングや、データ構造の1対1変換で最も多用される。
-- **TSでの注意点**: `map` は戻り値から「新しい配列の型 `<U>[]`」を推論する。
+- **TSでの注意点**: `map` は戻り値から新しい配列の型 `<U>[]`を推論する。
 
   ```typescript
   const users: string[] = ["Alice", "Bob"];
@@ -35,10 +35,10 @@
 
 - **他言語対比**: Pythonのリスト内包表記 `[f(x) for x in lst]`。PHPの `array_map()`。
 
-### `filter()` : 【最頻出】条件を満たすものだけ「残した配列」を作る
+### `filter()` : 【最頻出】条件を満たすものだけ残した配列を作る
 
 - **公式リファレンス**: [Array.prototype.filter() - MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-- **用途**: 特定の条件に合致する (`true` を返す) 要素だけを抽出する。「論理削除されていないデータだけを出す」際などに必須。
+- **用途**: 特定の条件に合致する (`true` を返す) 要素だけを抽出する。論理削除されていないデータだけを出す際などに必須。
 
   ```typescript
   const numbers: number[] = [1, 2, 3, 4, 5];
@@ -77,7 +77,7 @@
 
 ## 3. 文字列 ⇔ 配列 の破壊と結合
 
-### `split()` : 文字列を「割って」配列にする
+### `split()` : 文字列を割って配列にする
 
 - **公式リファレンス**: [String.prototype.split() - MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/split)
 - **用途**: CSVデータや標準入力で受け取った生の文字列データを、扱いやすい配列に変換する。
@@ -87,7 +87,7 @@
   const arr: string[] = str.split(","); // ["apple", "banana", "orange"]
   ```
 
-### `join()` : 配列を「くっつけて」文字列にする
+### `join()` : 配列をくっつけて文字列にする
 
 - **公式リファレンス**: [Array.prototype.join() - MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
 - **用途**: 分割して処理した配列を、最終的な解答文字列やパスとして連結する。
@@ -104,7 +104,7 @@
 ### `sort()` : 順番を並び替える
 
 - **公式リファレンス**: [Array.prototype.sort() - MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-- **超危険な罠**: JavaScript/TypeScriptの `sort()` は、**引数を与えないと「中身を一旦すべて文字列に変換した上で、UTF-16コード単位の辞書順で並べる」**仕様になっている。
+- **超危険な罠**: JavaScript/TypeScriptの `sort()` は、**引数を与えないと中身を一旦すべて文字列に変換した上で、UTF-16コード単位の辞書順で並べる**仕様になっている。
   - `[10, 2, 30].sort()` → `[10, 2, 30]` となる致命的なバグが起こる。
 - **正しい数値ソートの書き方**: 必ず数値を比較して差分を返すコールバック関数を渡す。
 
