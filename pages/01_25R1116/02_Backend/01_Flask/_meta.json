@@ -1,0 +1,9 @@
+{
+  "00_Flask_Concept_and_Basics": "Flask_基礎と前提知識",
+  "01_Flask_WTForms_Advanced": "Flask_WTForms応用",
+  "02_Flask_Database_and_ORM": "Flask_データベースとORM",
+  "03_Flask_Jinja2_Template_Syntax": "Flask_Jinja2テンプレート構文",
+  "04_Flask_SQLAlchemy_Advanced_ToDo": "Flask_SQLAlchemy応用_ToDoアプリ",
+  "05_Flask_Logical_Delete_and_Consistency": "Flask_論理削除と表示一貫性の設計",
+  "06_Flask_Blueprint_MVC_Architecture": "Flask_BlueprintによるMVCアーキテクチャ"
+}
