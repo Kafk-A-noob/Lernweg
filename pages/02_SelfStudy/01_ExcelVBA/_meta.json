@@ -1,3 +1,7 @@
 {
-  "01_Concept_and_Basics": "概念と基本(Web比較)"
+  "01_Concept_and_Basics": "概念と基本(Web比較)",
+  "02_Syntax_and_Variables": "文法・変数・データ型",
+  "03_Control_Structures": "制御構文とエラートラップ",
+  "04_Functions_and_Methods": "プロシージャ (Sub/Function)",
+  "05_Object_and_DOM": "Excelオブジェクト(DOM)操作"
 }
