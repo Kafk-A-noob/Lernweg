@@ -1,3 +1,6 @@
 {
-  "00_Database_Concept_and_Basics": "Database_基礎と前提知識"
+  "00_Database_Concept_and_Basics": {
+    "title": "Database_基礎と前提知識",
+    "type": "doc"
+  }
 }

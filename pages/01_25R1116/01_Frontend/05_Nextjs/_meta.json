@@ -1,3 +1,6 @@
 {
-  "00_Nextjs_Concept_and_Basics": "Nextjs_基礎と前提知識"
+  "00_Nextjs_Concept_and_Basics": {
+    "title": "Nextjs_基礎と前提知識",
+    "type": "doc"
+  }
 }

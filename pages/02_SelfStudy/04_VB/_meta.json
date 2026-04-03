@@ -1,6 +1,18 @@
 {
-  "01_Concept_and_Basics": "Visual Basicの概念と基礎",
-  "02_Syntax_and_Features": "VB.NETの文法と型の扱い",
-  "03_Control_Structures": "制御構文とLINQ",
-  "04_GUI_and_Events": "Windows FormsのGUIとイベント"
+  "01_Concept_and_Basics": {
+    "title": "Visual Basicの概念と基礎",
+    "type": "doc"
+  },
+  "02_Syntax_and_Features": {
+    "title": "VB.NETの文法と型の扱い",
+    "type": "doc"
+  },
+  "03_Control_Structures": {
+    "title": "制御構文とLINQ",
+    "type": "doc"
+  },
+  "04_GUI_and_Events": {
+    "title": "Windows FormsのGUIとイベント",
+    "type": "doc"
+  }
 }

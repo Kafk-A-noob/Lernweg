@@ -1,6 +1,18 @@
 {
-  "01_ExcelVBA": "Excel VBA",
-  "02_Access": "Access",
-  "03_Java": "Java",
-  "04_VB": "Visual Basic"
+  "01_ExcelVBA": {
+    "title": "Excel VBA",
+    "type": "doc"
+  },
+  "02_Access": {
+    "title": "Access",
+    "type": "doc"
+  },
+  "03_Java": {
+    "title": "Java",
+    "type": "doc"
+  },
+  "04_VB": {
+    "title": "Visual Basic",
+    "type": "doc"
+  }
 }

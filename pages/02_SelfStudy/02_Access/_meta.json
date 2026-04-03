@@ -1,6 +1,18 @@
 {
-  "01_Concept_and_Basics": "概念と基本(Web比較)",
-  "02_Query_and_SQL": "クエリ設計とSQL的視点",
-  "03_Forms_and_Events": "フォームUIとイベント",
-  "04_VBA_Integration": "マクロとVBAの連携"
+  "01_Concept_and_Basics": {
+    "title": "概念と基本(Web比較)",
+    "type": "doc"
+  },
+  "02_Query_and_SQL": {
+    "title": "クエリ設計とSQL的視点",
+    "type": "doc"
+  },
+  "03_Forms_and_Events": {
+    "title": "フォームUIとイベント",
+    "type": "doc"
+  },
+  "04_VBA_Integration": {
+    "title": "マクロとVBAの連携",
+    "type": "doc"
+  }
 }

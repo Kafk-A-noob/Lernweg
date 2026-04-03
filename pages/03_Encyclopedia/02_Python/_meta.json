@@ -1,4 +1,10 @@
 {
-  "01_Python_Logic_Building_Methods": "Python_ロジック構築メソッド図鑑",
-  "02_Python_Specific_Syntax_and_Comparison": "Python_特有のお作法と他言語比較"
+  "01_Python_Logic_Building_Methods": {
+    "title": "Python_ロジック構築メソッド図鑑",
+    "type": "doc"
+  },
+  "02_Python_Specific_Syntax_and_Comparison": {
+    "title": "Python_特有のお作法と他言語比較",
+    "type": "doc"
+  }
 }

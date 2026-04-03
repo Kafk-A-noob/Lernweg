@@ -1,3 +1,6 @@
 {
-  "00_TypeScript_Concept_and_Basics": "TypeScript_基礎と前提知識"
+  "00_TypeScript_Concept_and_Basics": {
+    "title": "TypeScript_基礎と前提知識",
+    "type": "doc"
+  }
 }

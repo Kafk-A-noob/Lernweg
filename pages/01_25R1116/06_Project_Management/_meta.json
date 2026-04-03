@@ -1,3 +1,6 @@
 {
-  "01_Requirements_and_Design": "要件定義と設計"
+  "01_Requirements_and_Design": {
+    "title": "要件定義と設計",
+    "type": "doc"
+  }
 }

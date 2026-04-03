@@ -1,8 +1,26 @@
 {
-  "01_Network_and_Hosts": "hostsファイルと名前解決",
-  "02_WSL_Management": "WSLの管理とバックアップ",
-  "03_User_and_Group": "ユーザー・グループ管理とsudo",
-  "04_File_Permissions": "パーミッション(chmod)と権限",
-  "05_Package_and_SSH": "パッケージ管理(apt)とSSH",
-  "06_LAMP_and_Apache": "LAMP環境とApache/PHPの深掘り"
+  "01_Network_and_Hosts": {
+    "title": "hostsファイルと名前解決",
+    "type": "doc"
+  },
+  "02_WSL_Management": {
+    "title": "WSLの管理とバックアップ",
+    "type": "doc"
+  },
+  "03_User_and_Group": {
+    "title": "ユーザー・グループ管理とsudo",
+    "type": "doc"
+  },
+  "04_File_Permissions": {
+    "title": "パーミッション(chmod)と権限",
+    "type": "doc"
+  },
+  "05_Package_and_SSH": {
+    "title": "パッケージ管理(apt)とSSH",
+    "type": "doc"
+  },
+  "06_LAMP_and_Apache": {
+    "title": "LAMP環境とApache/PHPの深掘り",
+    "type": "doc"
+  }
 }

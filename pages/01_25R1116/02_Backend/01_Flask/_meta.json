@@ -1,9 +1,30 @@
 {
-  "00_Flask_Concept_and_Basics": "Flask_基礎と前提知識",
-  "01_Flask_WTForms_Advanced": "Flask_WTForms応用",
-  "02_Flask_Database_and_ORM": "Flask_データベースとORM",
-  "03_Flask_Jinja2_Template_Syntax": "Flask_Jinja2テンプレート構文",
-  "04_Flask_SQLAlchemy_Advanced_ToDo": "Flask_SQLAlchemy応用_ToDoアプリ",
-  "05_Flask_Logical_Delete_and_Consistency": "Flask_論理削除と表示一貫性の設計",
-  "06_Flask_Blueprint_MVC_Architecture": "Flask_BlueprintによるMVCアーキテクチャ"
+  "00_Flask_Concept_and_Basics": {
+    "title": "Flask_基礎と前提知識",
+    "type": "doc"
+  },
+  "01_Flask_WTForms_Advanced": {
+    "title": "Flask_WTForms応用",
+    "type": "doc"
+  },
+  "02_Flask_Database_and_ORM": {
+    "title": "Flask_データベースとORM",
+    "type": "doc"
+  },
+  "03_Flask_Jinja2_Template_Syntax": {
+    "title": "Flask_Jinja2テンプレート構文",
+    "type": "doc"
+  },
+  "04_Flask_SQLAlchemy_Advanced_ToDo": {
+    "title": "Flask_SQLAlchemy応用_ToDoアプリ",
+    "type": "doc"
+  },
+  "05_Flask_Logical_Delete_and_Consistency": {
+    "title": "Flask_論理削除と表示一貫性の設計",
+    "type": "doc"
+  },
+  "06_Flask_Blueprint_MVC_Architecture": {
+    "title": "Flask_BlueprintによるMVCアーキテクチャ",
+    "type": "doc"
+  }
 }

@@ -1,3 +1,6 @@
 {
-  "01_Stdin_and_CLI_Basics": "標準入力とCLI実行の基礎知識"
+  "01_Stdin_and_CLI_Basics": {
+    "title": "標準入力とCLI実行の基礎知識",
+    "type": "doc"
+  }
 }

@@ -1,7 +1,22 @@
 {
-  "01_Frontend": "フロントエンド",
-  "02_Backend": "バックエンド",
-  "03_Infrastructure": "インフラ",
-  "04_Others": "その他",
-  "06_Project_Management": "P M"
+  "01_Frontend": {
+    "title": "フロントエンド",
+    "type": "doc"
+  },
+  "02_Backend": {
+    "title": "バックエンド",
+    "type": "doc"
+  },
+  "03_Infrastructure": {
+    "title": "インフラ",
+    "type": "doc"
+  },
+  "04_Others": {
+    "title": "その他",
+    "type": "doc"
+  },
+  "06_Project_Management": {
+    "title": "P M",
+    "type": "doc"
+  }
 }

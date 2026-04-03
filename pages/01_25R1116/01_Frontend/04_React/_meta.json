@@ -1,3 +1,6 @@
 {
-  "00_React_Concept_and_Basics": "React_基礎と前提知識"
+  "00_React_Concept_and_Basics": {
+    "title": "React_基礎と前提知識",
+    "type": "doc"
+  }
 }

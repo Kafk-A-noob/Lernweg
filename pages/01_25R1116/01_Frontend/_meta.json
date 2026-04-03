@@ -1,7 +1,22 @@
 {
-  "01_HTML_CSS": "HTMLCSS",
-  "02_JavaScript": "JavaScript",
-  "03_TypeScript": "TypeScript",
-  "04_React": "React",
-  "05_Nextjs": "Next.js"
+  "01_HTML_CSS": {
+    "title": "HTMLCSS",
+    "type": "doc"
+  },
+  "02_JavaScript": {
+    "title": "JavaScript",
+    "type": "doc"
+  },
+  "03_TypeScript": {
+    "title": "TypeScript",
+    "type": "doc"
+  },
+  "04_React": {
+    "title": "React",
+    "type": "doc"
+  },
+  "05_Nextjs": {
+    "title": "Next.js",
+    "type": "doc"
+  }
 }

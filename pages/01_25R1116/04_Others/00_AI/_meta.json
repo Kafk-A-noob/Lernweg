@@ -1,3 +1,6 @@
 {
-  "00_AI_Concept_and_Basics": "AI_基礎と前提知識"
+  "00_AI_Concept_and_Basics": {
+    "title": "AI_基礎と前提知識",
+    "type": "doc"
+  }
 }

@@ -1,7 +1,19 @@
 {
   "index": "トップ",
-  "00_Personal_Production_Log": "個人制作ログ",
-  "01_25R1116": "訓練校(25R1116)",
-  "02_SelfStudy": "自己学習",
-  "03_Encyclopedia": "実務・お作法図鑑"
+  "00_Personal_Production_Log": {
+    "title": "個人制作ログ",
+    "type": "doc"
+  },
+  "01_25R1116": {
+    "title": "訓練校(25R1116)",
+    "type": "doc"
+  },
+  "02_SelfStudy": {
+    "title": "自己学習",
+    "type": "doc"
+  },
+  "03_Encyclopedia": {
+    "title": "実務・お作法図鑑",
+    "type": "doc"
+  }
 }

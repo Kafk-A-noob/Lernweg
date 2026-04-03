@@ -1,8 +1,26 @@
 {
-  "01_JavaScript_TypeScript": "JavaScript / TypeScript",
-  "02_Python": "Python",
-  "03_PHP": "PHP",
-  "04_Frameworks": "フレームワーク・サーバー",
-  "05_Database": "データベース (SQL / RDB)",
-  "06_Mobile_App": "モバイル・アプリ開発"
+  "01_JavaScript_TypeScript": {
+    "title": "JavaScript / TypeScript",
+    "type": "doc"
+  },
+  "02_Python": {
+    "title": "Python",
+    "type": "doc"
+  },
+  "03_PHP": {
+    "title": "PHP",
+    "type": "doc"
+  },
+  "04_Frameworks": {
+    "title": "フレームワーク・サーバー",
+    "type": "doc"
+  },
+  "05_Database": {
+    "title": "データベース (SQL / RDB)",
+    "type": "doc"
+  },
+  "06_Mobile_App": {
+    "title": "モバイル・アプリ開発",
+    "type": "doc"
+  }
 }

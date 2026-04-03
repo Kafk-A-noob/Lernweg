@@ -1,5 +1,14 @@
 {
-  "00_AI": "AI",
-  "01_IT_Literacy_and_Rules": "ITリテラシ暗黙の了解",
-  "02_CodingTest": "コーディングテスト"
+  "00_AI": {
+    "title": "AI",
+    "type": "doc"
+  },
+  "01_IT_Literacy_and_Rules": {
+    "title": "ITリテラシ暗黙の了解",
+    "type": "doc"
+  },
+  "02_CodingTest": {
+    "title": "コーディングテスト",
+    "type": "doc"
+  }
 }

@@ -1,4 +1,10 @@
 {
-  "00_Portfolio_Dev_Env_and_Architecture": "Portfolio_開発環境とアーキテクチャ前提",
-  "01_Project_Last-Stand_Collab_Coding_and_AI_Eval": "Project_Last-Stand_協業コーディングとAI活用評価"
+  "00_Portfolio_Dev_Env_and_Architecture": {
+    "title": "Portfolio_開発環境とアーキテクチャ前提",
+    "type": "doc"
+  },
+  "01_Project_Last-Stand_Collab_Coding_and_AI_Eval": {
+    "title": "Project_Last-Stand_協業コーディングとAI活用評価",
+    "type": "doc"
+  }
 }

@@ -1,4 +1,10 @@
 {
-  "00_JavaScript_Concept_and_Basics": "JavaScript_基礎と前提知識",
-  "01_JavaScript_OOP_Practice": "JavaScript_オブジェクト指向実践"
+  "00_JavaScript_Concept_and_Basics": {
+    "title": "JavaScript_基礎と前提知識",
+    "type": "doc"
+  },
+  "01_JavaScript_OOP_Practice": {
+    "title": "JavaScript_オブジェクト指向実践",
+    "type": "doc"
+  }
 }

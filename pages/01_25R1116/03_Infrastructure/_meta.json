@@ -1,4 +1,10 @@
 {
-  "00_Database": "データベース",
-  "01_Linux_Ubuntu": "Linux (Ubuntu / WSL)"
+  "00_Database": {
+    "title": "データベース",
+    "type": "doc"
+  },
+  "01_Linux_Ubuntu": {
+    "title": "Linux (Ubuntu / WSL)",
+    "type": "doc"
+  }
 }

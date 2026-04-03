@@ -1,3 +1,6 @@
 {
-  "01_Swift_Kotlin_Overview_and_History": "Swift_Kotlin_概要と歴史"
+  "01_Swift_Kotlin_Overview_and_History": {
+    "title": "Swift_Kotlin_概要と歴史",
+    "type": "doc"
+  }
 }

@@ -1,4 +1,10 @@
 {
-  "00_Python": "Python",
-  "01_Flask": "Flask"
+  "00_Python": {
+    "title": "Python",
+    "type": "doc"
+  },
+  "01_Flask": {
+    "title": "Flask",
+    "type": "doc"
+  }
 }

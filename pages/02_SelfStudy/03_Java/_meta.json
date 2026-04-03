@@ -1,7 +1,22 @@
 {
-  "01_Concept_and_Basics": "Javaの概念と基礎",
-  "02_Syntax_and_Types": "静的型付けと基本構文",
-  "03_Control_Structures": "制御構文と例外処理",
-  "04_Object_Oriented": "オブジェクト指向 (クラスと継承)",
-  "05_Collections_and_Streams": "コレクションとモダンな記法"
+  "01_Concept_and_Basics": {
+    "title": "Javaの概念と基礎",
+    "type": "doc"
+  },
+  "02_Syntax_and_Types": {
+    "title": "静的型付けと基本構文",
+    "type": "doc"
+  },
+  "03_Control_Structures": {
+    "title": "制御構文と例外処理",
+    "type": "doc"
+  },
+  "04_Object_Oriented": {
+    "title": "オブジェクト指向 (クラスと継承)",
+    "type": "doc"
+  },
+  "05_Collections_and_Streams": {
+    "title": "コレクションとモダンな記法",
+    "type": "doc"
+  }
 }

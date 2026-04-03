@@ -1,0 +1,211 @@
+
+=== pages\00_Personal_Production_Log\01_Web_Application\_meta.json ===
+{
+  "00_Web_Application_Tech_Stack": "Web_Application_使用言語・技術スタック一覧",
+  "01_TheVocaloid-Times_AI_Generation_Case_Study": "TheVocaloid-Times_AI完全生成事例評価",
+  "02_maybe-Goita-Online_AI_Generation_Case_Study": "maybe-Goita-Online_AI完全生成事例評価"
+}
+=== pages\00_Personal_Production_Log\02_Portfolio\_meta.json ===
+{
+  "00_Portfolio_Dev_Env_and_Architecture": "Portfolio_開発環境とアーキテクチャ前提",
+  "01_Project_Last-Stand_Collab_Coding_and_AI_Eval": "Project_Last-Stand_協業コーディングとAI活用評価"
+}
+=== pages\00_Personal_Production_Log\03_Infrastructure\00_Database\_meta.json ===
+{
+  "00_Database_Concept_and_Basics": "Database_基礎と前提知識"
+}
+=== pages\00_Personal_Production_Log\03_Infrastructure\_meta.json ===
+{
+  "00_Infrastructure_Concept_and_Design": "Infrastructure_前提知識と構成設計",
+  "01_Minecraft_Server_Build_and_Eval": "Minecraft_サーバー構築と運用評価"
+}
+=== pages\01_25R1116\01_Frontend\01_HTML_CSS\_meta.json ===
+{
+  "00_HTML_CSS_Concept_and_Basics": "HTML_CSS_基礎と前提知識",
+  "01_HTML_CSS_Bootstrap_Practice": "HTML_CSS_Bootstrap実践"
+}
+=== pages\01_25R1116\01_Frontend\02_JavaScript\_meta.json ===
+{
+  "00_JavaScript_Concept_and_Basics": "JavaScript_基礎と前提知識",
+  "01_JavaScript_OOP_Practice": "JavaScript_オブジェクト指向実践"
+}
+=== pages\01_25R1116\01_Frontend\03_TypeScript\_meta.json ===
+{
+  "00_TypeScript_Concept_and_Basics": "TypeScript_基礎と前提知識"
+}
+=== pages\01_25R1116\01_Frontend\04_React\_meta.json ===
+{
+  "00_React_Concept_and_Basics": "React_基礎と前提知識"
+}
+=== pages\01_25R1116\01_Frontend\05_Nextjs\_meta.json ===
+{
+  "00_Nextjs_Concept_and_Basics": "Nextjs_基礎と前提知識"
+}
+=== pages\01_25R1116\01_Frontend\_meta.json ===
+{
+  "01_HTML_CSS": "HTMLCSS",
+  "02_JavaScript": "JavaScript",
+  "03_TypeScript": "TypeScript",
+  "04_React": "React",
+  "05_Nextjs": "Next.js"
+}
+=== pages\01_25R1116\02_Backend\00_Python\_meta.json ===
+{
+  "00_Python_Concept_and_Basics": "Python_基礎と前提知識"
+}
+=== pages\01_25R1116\02_Backend\01_Flask\_meta.json ===
+{
+  "00_Flask_Concept_and_Basics": "Flask_基礎と前提知識",
+  "01_Flask_WTForms_Advanced": "Flask_WTForms応用",
+  "02_Flask_Database_and_ORM": "Flask_データベースとORM",
+  "03_Flask_Jinja2_Template_Syntax": "Flask_Jinja2テンプレート構文",
+  "04_Flask_SQLAlchemy_Advanced_ToDo": "Flask_SQLAlchemy応用_ToDoアプリ",
+  "05_Flask_Logical_Delete_and_Consistency": "Flask_論理削除と表示一貫性の設計",
+  "06_Flask_Blueprint_MVC_Architecture": "Flask_BlueprintによるMVCアーキテクチャ"
+}
+=== pages\01_25R1116\02_Backend\_meta.json ===
+{
+  "00_Python": "Python",
+  "01_Flask": "Flask"
+}
+=== pages\01_25R1116\03_Infrastructure\00_Database\_meta.json ===
+{
+  "00_Database_Concept_and_Basics": "Database_基礎と前提知識"
+}
+=== pages\01_25R1116\03_Infrastructure\01_Linux_Ubuntu\_meta.json ===
+{
+  "01_Network_and_Hosts": "hostsファイルと名前解決",
+  "02_WSL_Management": "WSLの管理とバックアップ",
+  "03_User_and_Group": "ユーザー・グループ管理とsudo",
+  "04_File_Permissions": "パーミッション(chmod)と権限",
+  "05_Package_and_SSH": "パッケージ管理(apt)とSSH",
+  "06_LAMP_and_Apache": "LAMP環境とApache/PHPの深掘り"
+}
+
+=== pages\01_25R1116\03_Infrastructure\_meta.json ===
+{
+  "00_Database": "データベース",
+  "01_Linux_Ubuntu": "Linux (Ubuntu / WSL)"
+}
+=== pages\01_25R1116\04_Others\00_AI\_meta.json ===
+{
+  "00_AI_Concept_and_Basics": "AI_基礎と前提知識"
+}
+=== pages\01_25R1116\04_Others\01_IT_Literacy_and_Rules\_meta.json ===
+{
+  "01_Unspoken_Rules_for_Juniors": "未経験者のための暗黙のルール",
+  "02_Basic_IT_Literacy": "IT基礎リテラシーエラー対応"
+}
+=== pages\01_25R1116\04_Others\02_CodingTest\_meta.json ===
+{
+  "01_Stdin_and_CLI_Basics": "標準入力とCLI実行の基礎知識"
+}
+=== pages\01_25R1116\04_Others\_meta.json ===
+{
+  "00_AI": "AI",
+  "01_IT_Literacy_and_Rules": "ITリテラシ暗黙の了解",
+  "02_CodingTest": "コーディングテスト"
+}
+=== pages\01_25R1116\06_Project_Management\_meta.json ===
+{
+  "01_Requirements_and_Design": "要件定義と設計"
+}
+=== pages\01_25R1116\_meta.json ===
+{
+  "01_Frontend": "フロントエンド",
+  "02_Backend": "バックエンド",
+  "03_Infrastructure": "インフラ",
+  "04_Others": "その他",
+  "06_Project_Management": "P M"
+}
+=== pages\02_SelfStudy\01_ExcelVBA\_meta.json ===
+{
+  "01_Concept_and_Basics": "概念と基本(Web比較)",
+  "02_Syntax_and_Variables": "文法・変数・データ型",
+  "03_Control_Structures": "制御構文とエラートラップ",
+  "04_Functions_and_Methods": "プロシージャ (Sub/Function)",
+  "05_Object_and_DOM": "Excelオブジェクト(DOM)操作"
+}
+=== pages\02_SelfStudy\02_Access\_meta.json ===
+{
+  "01_Concept_and_Basics": "概念と基本(Web比較)",
+  "02_Query_and_SQL": "クエリ設計とSQL的視点",
+  "03_Forms_and_Events": "フォームUIとイベント",
+  "04_VBA_Integration": "マクロとVBAの連携"
+}
+=== pages\02_SelfStudy\03_Java\_meta.json ===
+{
+  "01_Concept_and_Basics": "Javaの概念と基礎",
+  "02_Syntax_and_Types": "静的型付けと基本構文",
+  "03_Control_Structures": "制御構文と例外処理",
+  "04_Object_Oriented": "オブジェクト指向 (クラスと継承)",
+  "05_Collections_and_Streams": "コレクションとモダンな記法"
+}
+
+=== pages\02_SelfStudy\04_VB\_meta.json ===
+{
+  "01_Concept_and_Basics": "Visual Basicの概念と基礎",
+  "02_Syntax_and_Features": "VB.NETの文法と型の扱い",
+  "03_Control_Structures": "制御構文とLINQ",
+  "04_GUI_and_Events": "Windows FormsのGUIとイベント"
+}
+
+=== pages\02_SelfStudy\_meta.json ===
+{
+  "01_ExcelVBA": "Excel VBA",
+  "02_Access": "Access",
+  "03_Java": "Java",
+  "04_VB": "Visual Basic"
+}
+=== pages\03_Encyclopedia\01_JavaScript_TypeScript\_meta.json ===
+{
+  "01_JS_TS_Logic_Building_Methods": "JS_TS_ロジック構築メソッド図鑑",
+  "02_JS_TS_Specific_Syntax_and_Comparison": "JS_TS_特有のお作法と他言語比較"
+}
+=== pages\03_Encyclopedia\02_Python\_meta.json ===
+{
+  "01_Python_Logic_Building_Methods": "Python_ロジック構築メソッド図鑑",
+  "02_Python_Specific_Syntax_and_Comparison": "Python_特有のお作法と他言語比較"
+}
+=== pages\03_Encyclopedia\03_PHP\_meta.json ===
+{
+  "01_PHP_Logic_Building_Methods": "PHP_ロジック構築メソッド図鑑",
+  "02_PHP_Specific_Syntax_and_Comparison": "PHP_特有のお作法と他言語比較"
+}
+=== pages\03_Encyclopedia\04_Frameworks\_meta.json ===
+{
+  "01_React_Nextjs_Reverse_Dictionary": "React_Nextjs_逆引き辞典",
+  "02_Flask_SQLAlchemy_Reverse_Dictionary": "Flask_SQLAlchemy_逆引き辞典",
+  "03_Laravel_PHP_Beginners_Guide": "Laravel_PHP_初学者向け入門"
+}
+=== pages\03_Encyclopedia\05_Database\_meta.json ===
+{
+  "01_SQL_RDB_Basic_Queries_and_Anti_Patterns": "SQL_RDB_基本クエリとアンチパターン図鑑",
+  "02_DB_Design_Index_and_Transaction": "DB設計_インデックスとトランザクションのお作法"
+}
+=== pages\03_Encyclopedia\06_Mobile_App\01_Native\_meta.json ===
+{
+  "01_Swift_Kotlin_Overview_and_History": "Swift_Kotlin_概要と歴史"
+}
+=== pages\03_Encyclopedia\06_Mobile_App\02_CrossPlatform\_meta.json ===
+{
+  "01_Flutter_Dart_Beginners_Guide": "Flutter_Dart_初学者向け入門"
+}
+=== pages\03_Encyclopedia\_meta.json ===
+{
+  "01_JavaScript_TypeScript": "JavaScript / TypeScript",
+  "02_Python": "Python",
+  "03_PHP": "PHP",
+  "04_Frameworks": "フレームワーク・サーバー",
+  "05_Database": "データベース (SQL / RDB)",
+  "06_Mobile_App": "モバイル・アプリ開発"
+}
+
+=== pages\_meta.json ===
+{
+  "index": "トップ",
+  "00_Personal_Production_Log": "個人制作ログ",
+  "01_25R1116": "訓練校(25R1116)",
+  "02_SelfStudy": "自己学習",
+  "03_Encyclopedia": "実務・お作法図鑑"
+}

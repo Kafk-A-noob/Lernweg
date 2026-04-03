@@ -1,4 +1,10 @@
 {
-  "01_Unspoken_Rules_for_Juniors": "未経験者のための暗黙のルール",
-  "02_Basic_IT_Literacy": "IT基礎リテラシーエラー対応"
+  "01_Unspoken_Rules_for_Juniors": {
+    "title": "未経験者のための暗黙のルール",
+    "type": "doc"
+  },
+  "02_Basic_IT_Literacy": {
+    "title": "IT基礎リテラシーエラー対応",
+    "type": "doc"
+  }
 }
