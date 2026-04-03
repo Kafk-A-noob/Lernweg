@@ -18,5 +18,9 @@ export default {
   },
   editLink: {
     text: 'GitHubで直接編集する',
+  },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    autoCollapse: false
   }
 }
