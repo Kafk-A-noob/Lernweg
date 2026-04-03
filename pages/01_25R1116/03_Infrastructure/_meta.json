@@ -1,3 +1,4 @@
 {
-  "00_Database": "データベース"
+  "00_Database": "データベース",
+  "01_Linux_Ubuntu": "Linux (Ubuntu / WSL)"
 }
