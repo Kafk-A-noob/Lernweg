@@ -42,6 +42,7 @@
 ## 3. コンテンツ構成 (2026年4月時点)
 
 ### 📂 `01_25R1116` — 訓練校カリキュラム
+
 | カテゴリ | 内容 |
 | :--- | :--- |
 | **01_Frontend** | HTML/CSS, JavaScript, React, Next.js (各言語の歴史・概念・チートシート付き) |
@@ -49,6 +50,7 @@
 | **03_Infrastructure** | Database(SQL), Linux/Ubuntu (hosts, WSL, ユーザー管理, パーミッション, apt/SSH, UFW/ファイアウォール, LAMP DeepDive, systemd, ログ/cron) |
 
 ### 📂 `02_SelfStudy` — 自己学習コンテンツ
+
 | カテゴリ | 内容 |
 | :--- | :--- |
 | **01_ExcelVBA** | VBAの概念、マクロ記録からの脱却、配列処理の高速化 |
@@ -60,6 +62,7 @@
 | **07_RHEL_Linux** | Red Hat系Linux(dnf, firewalld, SELinux)とUbuntuとの翻訳対照表 |
 
 ### 📂 `03_Encyclopedia` — 実務・お作法図鑑
+
 | カテゴリ | 内容 |
 | :--- | :--- |
 | **01_JavaScript_TypeScript** | ロジック構築メソッド図鑑 |

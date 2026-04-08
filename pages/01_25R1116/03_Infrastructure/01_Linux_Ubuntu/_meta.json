@@ -35,5 +35,9 @@
     "title": "ログ管理・ディスク・cron",
     "type": "doc"
   },
+  "10_SSH_DeepDive": {
+    "title": "SSH深掘りとOpenSSH vs PuTTY",
+    "type": "doc"
+  },
   "99_CheatSheet": "頻出スニペット・チートシート"
 }
