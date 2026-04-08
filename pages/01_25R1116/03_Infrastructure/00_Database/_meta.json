@@ -2,5 +2,7 @@
   "00_Database_Concept_and_Basics": {
     "title": "Database_基礎と前提知識",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート",
+  "00_DB_Concept_and_Basics": "原点と概念"
 }

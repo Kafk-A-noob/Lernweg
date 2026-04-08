@@ -19,8 +19,21 @@
     "title": "パッケージ管理(apt)とSSH",
     "type": "doc"
   },
-  "06_LAMP_and_Apache": {
-    "title": "LAMP環境とApache/PHPの深掘り",
+  "06_UFW_and_Firewall": {
+    "title": "UFW(ファイアウォール)とポートセキュリティ",
     "type": "doc"
-  }
+  },
+  "07_LAMP_DeepDive": {
+    "title": "LAMP環境とApache/PHPの深堀り (Deep Dive)",
+    "type": "doc"
+  },
+  "08_Systemd_and_Processes": {
+    "title": "systemdとプロセス管理",
+    "type": "doc"
+  },
+  "09_Logs_Disk_Cron": {
+    "title": "ログ管理・ディスク・cron",
+    "type": "doc"
+  },
+  "99_CheatSheet": "頻出スニペット・チートシート"
 }

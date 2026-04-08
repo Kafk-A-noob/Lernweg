@@ -1,0 +1,26 @@
+/* Global Styles for Lernweg to Fix Nextra Masking / Layout issues */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Ensure the wrapper never masks the sidebar */
+.lernweg-global-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Force Nextra Sidebar to always be visible and completely scrollable */
+.nextra-sidebar-container {
+  overflow-y: auto !important;
+  max-height: calc(100vh - 4rem) !important;
+}
+
+/* Ensure Encyclopedia elements don't get z-index masked */
+article {
+  overflow-x: hidden;
+}

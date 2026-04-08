@@ -18,5 +18,6 @@
   "05_Object_and_DOM": {
     "title": "Excelオブジェクト(DOM)操作",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート"
 }

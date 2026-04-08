@@ -6,5 +6,7 @@
   "01_JavaScript_OOP_Practice": {
     "title": "JavaScript_オブジェクト指向実践",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート",
+  "00_JS_Concept_and_Basics": "原点と概念"
 }

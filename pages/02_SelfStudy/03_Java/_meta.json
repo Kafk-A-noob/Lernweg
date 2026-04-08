@@ -18,5 +18,6 @@
   "05_Collections_and_Streams": {
     "title": "コレクションとモダンな記法",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート"
 }

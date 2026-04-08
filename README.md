@@ -23,6 +23,7 @@
 
 - **Framework**: React / Next.js (Pages Router / Nextra環境)
 - **Document Engine**: Nextra (MarkdownからのSSG自動生成、全文検索、サイドバー自動構築)
+- **Layout**: `components/GlobalLayout.jsx` による全ページ共通レイアウト（サイドバーの安定化）
 - **Security**: Next.js Middleware による Basic認証 (パスワードを知る者のみアクセス可)
 - **Deployment**: Vercel (CI/CD自動連携)
 
@@ -38,9 +39,35 @@
 
 ---
 
-## 3. 今後の作業タスク (Phase 1)
+## 3. コンテンツ構成 (2026年4月時点)
 
-1. Next.js + Nextra テンプレートでの初期環境構築 (`npx create-next-app`)
-2. `Learning_Log` から本ディレクトリへのMarkdown資産の移動と、Nextraのルーティング（`_meta.json` 等）に向けたフォルダ構造の最適化
-3. `middleware.ts` の配置によるBasic認証の適用
-4. Vercelへのデプロイと接続テスト
+### 📂 `01_25R1116` — 訓練校カリキュラム
+| カテゴリ | 内容 |
+| :--- | :--- |
+| **01_Frontend** | HTML/CSS, JavaScript, React, Next.js (各言語の歴史・概念・チートシート付き) |
+| **02_Backend** | Python, Flask (歴史・概念・チートシート付き) |
+| **03_Infrastructure** | Database(SQL), Linux/Ubuntu (hosts, WSL, ユーザー管理, パーミッション, apt/SSH, UFW/ファイアウォール, LAMP DeepDive, systemd, ログ/cron) |
+
+### 📂 `02_SelfStudy` — 自己学習コンテンツ
+| カテゴリ | 内容 |
+| :--- | :--- |
+| **01_ExcelVBA** | VBAの概念、マクロ記録からの脱却、配列処理の高速化 |
+| **02_Access** | DAO/ADOによるレコードセット操作、SQL直接実行 |
+| **03_Java** | equals比較の罠、コレクション操作、例外処理 |
+| **04_VB** | イベントハンドリング、クロススレッド例外 |
+| **05_AI_Product_Development** | MCP (Model Context Protocol), Agentic AI, LLMOps, RAG, VectorDB, Generative UI/UX |
+| **06_FastAPI** | 歴史・概念、非同期(ASGI)の原理、Pydantic、学習ロードマップ |
+| **07_RHEL_Linux** | Red Hat系Linux(dnf, firewalld, SELinux)とUbuntuとの翻訳対照表 |
+
+### 📂 `03_Encyclopedia` — 実務・お作法図鑑
+| カテゴリ | 内容 |
+| :--- | :--- |
+| **01_JavaScript_TypeScript** | ロジック構築メソッド図鑑 |
+| **02_Python** | リスト内包表記、アンチパターン、型ヒント |
+
+---
+
+## 4. 今後の作業タスク
+
+- [ ] Phase 2 への移行（App Router化）
+- [ ] コンテンツのさらなる拡充（Docker/コンテナ技術、CI/CD、テスト手法等）

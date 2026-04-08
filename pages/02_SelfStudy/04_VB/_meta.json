@@ -14,5 +14,6 @@
   "04_GUI_and_Events": {
     "title": "Windows FormsのGUIとイベント",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート"
 }

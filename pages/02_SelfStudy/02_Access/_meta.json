@@ -14,5 +14,6 @@
   "04_VBA_Integration": {
     "title": "マクロとVBAの連携",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート"
 }

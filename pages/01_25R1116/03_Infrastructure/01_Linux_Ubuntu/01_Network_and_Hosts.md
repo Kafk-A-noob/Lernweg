@@ -41,3 +41,49 @@ C:\Windows\System32\drivers\etc\hosts
 LAMP環境（Linux + Apache + MySQL + PHP）を作る際、Apacheで複数のサイトを同時起動する（バーチャルホスト）設定を行います。
 
 その際、「URLによって表示するサイトを切り替える」テストを行うため、ブラウザから自由に名前（ドメイン）をつけてローカルのApacheにアクセスさせる仕掛けが必要になります。その下準備操作です。
+
+---
+
+## 5. 実務でのアンチパターンと失敗例
+
+- ❌ **本番ドメインと同じ名前を `hosts` に上書きしてしまう**
+  - 例: `127.0.0.1 google.com` 等でローカルテストをし、書き換えたことを忘れてしまうパターン。本来見れるはずのサイトが一生見れず、ネットワーク障害だと勘違いして丸一日を溶かす新人が後を絶ちません。
+- ❌ **管理者権限なしで上書き保存しようとしてエラーになる**
+  - Windowsの場合、通常起動したエディタでは保存できません。「名前を付けて別名で保存」ダイアログが延々と出続ける罠にハマります。
+
+## 6. 2026年最新のベストプラクティス
+
+現代のモダンな開発体制では、**「各メンバーのPCの `hosts` ファイルを直接編集させる運用」自体が非推奨（レガシー）**となっています。
+現在のベストプラクティスは以下の通りです。
+
+1. **Docker とコンテナ化 (DevContainers)**
+   Docker Composeのネットワーク機能を利用すれば、コンテナ間通信においてサービス名だけで名前解決できるため、OS側の `hosts` に依存する必要がなくなります。
+2. **Next.js 開発サーバー等に対するLocalhostプロキシ機能**
+   `next.config.js` の rewrites や Vite の proxy 設定等により、開発サーバー自体にリバースプロキシの役割を持たせるのが主流です。
+3. **ローカルプロキシツール (ngrok, localtunnel など)**
+   社外ネットワークや実機スマホからのテストの際は、`hosts` ではなくトンネリングツールを使って外部の一時的ドメインからアクセスさせます。
+
+## 7. トラブルシューティング（よくあるエラー）
+
+- **Q. `hosts`を書き換えたのにブラウザで表示されない！**
+  - **A1. ブラウザのキャッシュが原因**: Chromeなどは独自のDNSキャッシュを持っています。`chrome://net-internals/#dns` にアクセスし、「Clear host cache」を実行してください。
+  - **A2. WSL2側の問題**: WSL2上のLinux環境からWindowsの `hosts` を参照する場合、`/etc/resolv.conf` の挙動により引けないことがあります。WSL2の内部用ホストである `host.docker.internal` などを併用するか、WSL内の `/etc/hosts` も同期して書き換える必要があります。
+
+## 8. 頻出メソッド・必須コマンド大全
+
+Windows・Linuxで名前解決やネットワーク疎通を確認するコマンド群です（暗記推奨）。
+
+```bash
+# [Windows] 管理者権限でhostsファイルを強制的に開く（PowerShell）
+Start-Process notepad.exe "C:\Windows\System32\drivers\etc\hosts" -Verb RunAs
+
+# [Linux/WSL] hostsファイルを開く
+sudo nano /etc/hosts
+
+# 設定したドメインへの疎通確認と、名前解決(IP)のチェック (Windows / Linux共通)
+ping my-test-app.local
+
+# DNSのルックアップ（名前解決がどこに向いているかを調べる）
+# (Linux用。Windowsでは nslookup等)
+dig my-test-app.local
+```

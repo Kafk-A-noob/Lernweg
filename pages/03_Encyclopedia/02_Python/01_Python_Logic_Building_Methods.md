@@ -126,3 +126,45 @@ ages = [20, 25]
 for name, age in zip(names, ages):
     print(f"{name} is {age} years old.")
 ```
+
+---
+
+## 6. 実務でのアンチパターンと失敗例
+
+- ❌ **ミュータブル（変更可能）なデフォルト引数の罠**
+
+  ```python
+  # ❌ 絶対にやってはいけない
+  def add_item(item, target_list=[]):
+      target_list.append(item)
+      return target_list
+  ```
+
+  Pythonのデフォルト引数は「関数が定義された時」に一度だけ評価されるため、この関数を複数回呼ぶと、以前の呼び出しで追加された中身が残ったまま使い回されて激しいバグを生みます。正しくは `target_list=None` とし、関数内で `if target_list is None: target_list = []` と初期化するのが絶対ルールです。
+- ❌ **`for i in range(len(arr)):` を使ってしまう**
+  - C言語やJavaの出身者がよくやる書き方ですが、Pythonでは著しく可読性が下がります。インデックス番号と中身を同時に回したい場合は、必ず組み込み関数の `enumerate()` を使います。
+
+  ```python
+  # ⭕️ Best Practice
+  for i, val in enumerate(arr):
+      print(f"{i}番目は {val}")
+  ```
+
+## 7. 2026年最新のベストプラクティス
+
+1. **型ヒント (Type Hints) の常識化**
+   近年のPython（3.9以降）では、引数や戻り値に型ヒントをつけるのが実務の絶対条件になりつつあります（FastAPIやPydanticの普及による恩恵）。
+
+   ```python
+   def get_users(user_id: int) -> list[str]: ...
+   ```
+
+2. **`dict` 操作における `match` 文の活用 (Python 3.10+)**
+   長い `if-elif-else` の代わりに、パターンマッチングを用いた簡潔で強力な条件分岐が推奨されます。APIからの複雑なJSONレスポンスをパースする際に無類の強さを発揮します。
+
+## 8. トラブルシューティング（よくあるエラー）
+
+- **Q. リストをコピーしたのに、元のリストまで書き換わってしまう（浅いコピーの罠）**
+  - **A.** Pythonでは `b = a` は「参照渡し」であり、`a`のアドレスを共有しているだけです。`a` を変更すると `b` も変わります。普通のリストなら `b = a.copy()` または `b = a[:]` を使い、多次元のリストなら `copy.deepcopy(a)` を使って安全にクローンしてください。
+- **Q. `TypeError: 'tuple' object does not support item assignment`**
+  - **A.** リスト `[1, 2]` ではなく、タプル `(1, 2)` の中身を変更しようとしています。タプルはイミュータブル（不変）なため、一度作ったら要素を書き換えられません。定数的な配列や、辞書のキーとして使いたい場合のみタプルを使用します。

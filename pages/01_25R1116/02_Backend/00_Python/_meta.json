@@ -2,5 +2,6 @@
   "00_Python_Concept_and_Basics": {
     "title": "Python_基礎と前提知識",
     "type": "doc"
-  }
+  },
+  "99_CheatSheet": "頻出スニペットチートシート"
 }

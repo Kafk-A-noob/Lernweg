@@ -14,5 +14,17 @@
   "04_VB": {
     "title": "Visual Basic",
     "type": "doc"
+  },
+  "05_AI_Product_Development": {
+    "title": "次世代AI開発 (LLMOps/UIUX)",
+    "type": "doc"
+  },
+  "06_FastAPI": {
+    "title": "FastAPI",
+    "type": "doc"
+  },
+  "07_RHEL_Linux": {
+    "title": "RHEL (Red Hat系Linux)",
+    "type": "doc"
   }
 }
