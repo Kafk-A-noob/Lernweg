@@ -26,5 +26,9 @@
   "07_RHEL_Linux": {
     "title": "RHEL (Red Hat系Linux)",
     "type": "doc"
+  },
+  "08_Business_System_Development": {
+    "title": "業務システム開発 (SFA/社内SE)",
+    "type": "doc"
   }
 }
