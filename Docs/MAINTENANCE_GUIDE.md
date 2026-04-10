@@ -10,6 +10,7 @@
 
 1. **ファイルを作成する**
    対象のフォルダ直下に `.md` ファイルを作成します。
+
    ```
    pages/02_SelfStudy/06_FastAPI/02_NewPage.md
    ```
@@ -17,6 +18,7 @@
 2. **`_meta.json` にエントリを追加する（必須）**
    Nextraは `_meta.json` に登録されていないファイルをサイドバーに表示しません。
    同じフォルダ内の `_meta.json` を開き、キーとタイトルを追加します。
+
    ```json
    {
      "02_NewPage": {
@@ -25,6 +27,7 @@
      }
    }
    ```
+
    > ⚠️ `_meta.json` への追加を忘れると、ファイルが存在してもサイドバーに出ません。これが最も多い「表示されない」原因です。
 
 3. **サイドバーの表示順序**
@@ -33,12 +36,14 @@
 ### 新しいフォルダ（セクション）の追加
 
 1. **フォルダを作成する**
+
    ```
    pages/02_SelfStudy/09_NewSection/
    ```
 
 2. **フォルダ内に `_meta.json` を作成する**
    フォルダ内に少なくとも1つの `.md` ファイルと `_meta.json` を配置します。
+
    ```json
    {
      "00_First_Page": "最初のページ"
@@ -46,6 +51,7 @@
    ```
 
 3. **親フォルダの `_meta.json` にも登録する**
+
    ```json
    // pages/02_SelfStudy/_meta.json に追加
    "09_NewSection": {
@@ -85,8 +91,9 @@ git push origin main
 ```
 
 ### デプロイ後の確認
-- Vercelのダッシュボード（https://vercel.com）でビルドステータスを確認
-- 本番URL（https://lernweg.vercel.app）を開いてサイドバーとコンテンツを目視確認
+
+- Vercelのダッシュボード（<https://vercel.com）でビルドステータスを確認>
+- 本番URL（<https://lernweg.vercel.app）を開いてサイドバーとコンテンツを目視確認>
 
 ### ビルドエラーが発生した場合
 
@@ -132,6 +139,7 @@ pages/
 ```
 
 ### 命名規則
+
 - フォルダ・ファイル名: `NN_PascalCase` (例: `06_UFW_and_Firewall.md`)
 - `00_` 番台: 概念・歴史・基礎事項
 - `99_` 番台: チートシート
