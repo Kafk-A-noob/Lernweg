@@ -1,4 +1,8 @@
 {
+  "07_LAMP_DeepDive": {
+    "title": "LAMP環境とApache/PHPの深堀り (Deep Dive)",
+    "type": "doc"
+  },
   "01_Network_and_Hosts": {
     "title": "hostsファイルと名前解決",
     "type": "doc"
@@ -23,10 +27,6 @@
     "title": "UFW(ファイアウォール)とポートセキュリティ",
     "type": "doc"
   },
-  "07_LAMP_DeepDive": {
-    "title": "LAMP環境とApache/PHPの深堀り (Deep Dive)",
-    "type": "doc"
-  },
   "08_Systemd_and_Processes": {
     "title": "systemdとプロセス管理",
     "type": "doc"
@@ -37,6 +37,14 @@
   },
   "10_SSH_DeepDive": {
     "title": "SSH深掘りとOpenSSH vs PuTTY",
+    "type": "doc"
+  },
+  "11_WordPress_LAMP_Setup": {
+    "title": "WordPressインストールと初期設定",
+    "type": "doc"
+  },
+  "12_SSH_GitHub_Deploy": {
+    "title": "SSH経由でのGitHub連携とデプロイ",
     "type": "doc"
   },
   "99_CheatSheet": "頻出スニペット・チートシート"
