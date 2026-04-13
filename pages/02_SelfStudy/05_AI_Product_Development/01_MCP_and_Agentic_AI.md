@@ -10,6 +10,9 @@
 しかし、このアプローチには致命的な問題がありました。
 「すべての開発者が、自分のアプリにAIを組み込むたびに、その独自のAPIの型定義やプロンプト指示をゼロから一生懸命書かなければならない」という再発明の嵐が起きていたのです。
 
+> 📖 **補足**: MCPが標準化した現在でも、Function CallingはSDK直接利用型のCLIツール等では現役の主力手法です。MCP非対応の環境やシンプルなCLIエージェントでは、Function Callingの直接実装が最も効率的なケースが多くあります。
+> 実装パターンについては **[Function Calling (Tool Use) 実装パターン](../09_CLI_Agent_Development/01_Function_Calling_Implementation)** をご参照ください。
+
 そこで2024年末、Claudeを開発する **Anthropic** 社が中心となって提唱・オープンソース化した標準規格が **MCP (Model Context Protocol)** です。
 MCPは「AI」と「外部のデータソース（ローカルPC、DB、GitHub、Slack等）」を繋ぐための「世界共通のコンセント（USBポートのようなもの）」として誕生しました。
 

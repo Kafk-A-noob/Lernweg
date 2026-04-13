@@ -1,0 +1,6 @@
+{
+  "00_CLI_Design_Patterns": "CLIアプリケーション設計とBunランタイム",
+  "01_Function_Calling_Implementation": "Function Calling (Tool Use) 実装パターン",
+  "02_Data_Masking_and_Security": "LLMデータ渡し前のセキュリティ層",
+  "03_Separation_of_Concerns": "関心の分離と4層アーキテクチャ"
+}

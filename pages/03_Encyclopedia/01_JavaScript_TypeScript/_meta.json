@@ -6,5 +6,9 @@
   "02_JS_TS_Specific_Syntax_and_Comparison": {
     "title": "JS_TS_特有のお作法と他言語比較",
     "type": "doc"
+  },
+  "03_Zod_Schema_Validation": {
+    "title": "Zod_スキーマ宣言とバリデーション図鑑",
+    "type": "doc"
   }
 }

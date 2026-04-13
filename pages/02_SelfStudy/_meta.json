@@ -30,5 +30,9 @@
   "08_Business_System_Development": {
     "title": "業務システム開発 (SFA/社内SE)",
     "type": "doc"
+  },
+  "09_CLI_Agent_Development": {
+    "title": "CLIエージェント開発 (TypeScript/Bun)",
+    "type": "doc"
   }
 }
