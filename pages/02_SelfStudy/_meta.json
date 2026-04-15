@@ -34,5 +34,13 @@
   "09_CLI_Agent_Development": {
     "title": "CLIエージェント開発 (TypeScript/Bun)",
     "type": "doc"
+  },
+  "10_Bun": {
+    "title": "Bun (JSランタイム)",
+    "type": "doc"
+  },
+  "11_Zod": {
+    "title": "Zod (バリデーション)",
+    "type": "doc"
   }
 }

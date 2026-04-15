@@ -1,0 +1,18 @@
+{
+  "01_Web_Application": {
+    "title": "Web アプリケーション",
+    "type": "doc"
+  },
+  "02_Portfolio": {
+    "title": "ポートフォリオ",
+    "type": "doc"
+  },
+  "03_Infrastructure": {
+    "title": "インフラストラクチャ",
+    "type": "doc"
+  },
+  "04_AI_Powered_Tools": {
+    "title": "AI活用ツール",
+    "type": "doc"
+  }
+}

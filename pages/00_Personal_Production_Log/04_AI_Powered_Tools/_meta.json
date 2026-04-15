@@ -1,0 +1,18 @@
+{
+  "00_AI_Powered_Tools_Tech_Stack": {
+    "title": "AI_Powered_Tools_使用言語・技術スタック一覧",
+    "type": "doc"
+  },
+  "01_Oncall_CLI_Agent_Architecture": {
+    "title": "Oncall_CLI_Agent_アーキテクチャ評価",
+    "type": "doc"
+  },
+  "02_Oncall_CLI_Agent_Benefits_and_Risks": {
+    "title": "Oncall_CLI_Agent_有用性と危険性",
+    "type": "doc"
+  },
+  "03_Oncall_CLI_Agent_Design_Patterns": {
+    "title": "Oncall_CLI_Agent_実践パターン集",
+    "type": "doc"
+  }
+}

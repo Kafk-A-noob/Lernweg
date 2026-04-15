@@ -2,5 +2,6 @@
   "00_AI_Concept_and_Basics": "AIプロダクトの歴史と概念",
   "01_MCP_and_Agentic_AI": "MCPとAgentic AI",
   "02_LLMOps_and_Architecture": "LLMOpsとアーキテクチャ",
-  "03_Generative_UI_UX": "次世代AI UI/UX設計"
+  "03_Generative_UI_UX": "次世代AI UI/UX設計",
+  "04_Zod_Validation_Pipeline": "Zodバリデーションパイプライン (LLM入力正規化)"
 }
