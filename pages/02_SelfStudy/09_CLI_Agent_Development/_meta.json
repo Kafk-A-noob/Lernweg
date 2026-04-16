@@ -4,5 +4,6 @@
   "02_Data_Masking_and_Security": "LLMデータ渡し前のセキュリティ層",
   "03_Separation_of_Concerns": "関心の分離と4層アーキテクチャ",
   "04_Failsafe_and_Rate_Limiting": "フェイルセーフ設計 (暴走防止)",
-  "05_Bun_Advanced_Compilation": "Bun単一バイナリコンパイル (配布戦略)"
+  "05_Bun_Advanced_Compilation": "Bun単一バイナリコンパイル (配布戦略)",
+  "06_CTO_Interview_Deep_Dive": "CTO面談用：技術的深掘り（メカニズム理解）"
 }
