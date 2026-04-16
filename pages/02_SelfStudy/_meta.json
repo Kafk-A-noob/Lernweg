@@ -32,7 +32,8 @@
     "type": "doc"
   },
   "09_CLI_Agent_Development": {
-    "title": "CLIエージェント開発 (TypeScript/Bun)"
+    "title": "CLIエージェント開発 (TypeScript/Bun)",
+    "type": "doc"
   },
   "10_Bun": {
     "title": "Bun (JSランタイム)",
