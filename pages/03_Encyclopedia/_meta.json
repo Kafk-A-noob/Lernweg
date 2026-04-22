@@ -1,26 +1,22 @@
 {
-  "01_JavaScript_TypeScript": {
-    "title": "JavaScript / TypeScript",
+  "01_Frontend": {
+    "title": "フロントエンド",
     "type": "doc"
   },
-  "02_Python": {
-    "title": "Python",
+  "02_Backend": {
+    "title": "バックエンド・DB",
     "type": "doc"
   },
-  "03_PHP": {
-    "title": "PHP",
+  "03_Infrastructure": {
+    "title": "インフラ・CI/CD",
     "type": "doc"
   },
-  "04_Frameworks": {
-    "title": "フレームワーク・サーバー",
-    "type": "doc"
-  },
-  "05_Database": {
-    "title": "データベース (SQL / RDB)",
-    "type": "doc"
-  },
-  "06_Mobile_App": {
+  "04_Mobile_App": {
     "title": "モバイル・アプリ開発",
+    "type": "doc"
+  },
+  "06_Project_Management": {
+    "title": "PM・チーム開発の作法",
     "type": "doc"
   }
 }

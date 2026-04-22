@@ -42,5 +42,9 @@
   "11_Zod": {
     "title": "Zod (バリデーション)",
     "type": "doc"
+  },
+  "12_RealWorld_Practice": {
+    "title": "実務エンジニア・実践ガイド",
+    "type": "doc"
   }
 }

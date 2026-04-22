@@ -1,0 +1,8 @@
+{
+  "01_Python": "Python",
+  "02_PHP": "PHP",
+  "03_Database": "データベース (SQL/RDB)",
+  "04_Flask_SQLAlchemy_Reverse_Dictionary": "Flask / SQLAlchemy",
+  "05_Laravel_PHP_Beginners_Guide": "Laravel 初心者ガイド",
+  "06_API_Design_And_Naming_Manners": "REST API設計と命名規則の作法"
+}
