@@ -6,5 +6,9 @@
   "01_Linux_Ubuntu": {
     "title": "Linux (Ubuntu / WSL)",
     "type": "doc"
+  },
+  "02_AWS": {
+    "title": "AWS (Amazon Web Services)",
+    "type": "doc"
   }
 }
